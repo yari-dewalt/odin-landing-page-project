@@ -83,7 +83,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 200px;
+    margin: 0px;
     margin-bottom: 0;
 }
 
@@ -119,10 +119,14 @@ box {
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
-    padding: 60px 100% 60px 100%;
+    padding: 60px 0 60px 0;
     width: 100%;
-    margin-left: 0;
+    margin-left: -200;
     margin-right: 0;
+}
+
+.information.quote {
+    margin-left: 0;
 }
 
 .quote-text {
@@ -148,7 +152,6 @@ box {
     justify-content: space-between;
     align-items: center;
     background-color: #3882F6;
-    width: 100%;
     min-width: 900px;
     margin: 100px 200px 100px 200px;
     padding: 40px 0px 40px 0px;
