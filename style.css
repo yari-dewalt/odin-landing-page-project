@@ -10,7 +10,7 @@ body {
 }
 
 .header h2 {
-    margin-left: 100px;
+    margin-left: 200px;
     font-size: 24px;
     color: #F9FAF8;
 }
@@ -20,7 +20,7 @@ body {
     display: flex;
     margin-left: auto;
     gap: 24px;
-    margin-right: 100px;
+    margin-right: 200px;
     font-size: 18px;
 }
 
@@ -35,7 +35,7 @@ body {
     display: flex;
     align-items: stretch;
     justify-content: space-between;
-    padding: 100px;
+    padding: 200px;
     gap: 40px;
 }
 
@@ -108,4 +108,32 @@ box {
     margin-top: 160px;
     text-align: center;
     color: #5F5F5F;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 60px;
+    width: 100%;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    width: 820px;
+    justify-self: center;
+    margin: 0;
+    padding-top: 60px;
+}
+
+.quote-author {
+    margin-left: 500px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
 }
